@@ -1,84 +1,84 @@
 {
  "total": {
-  "dias": 33,
-  "tp": 58,
+  "dias": 34,
+  "tp": 61,
   "sl": 44,
   "abiertos": 13,
-  "no_activados": 96,
-  "rr_neto": 72.0,
-  "verdes": 22,
+  "no_activados": 100,
+  "rr_neto": 80.0,
+  "verdes": 23,
   "rojos": 9,
   "planos": 2,
-  "cerrados": 102,
-  "tasa_tp": 56.9
+  "cerrados": 105,
+  "tasa_tp": 58.1
  },
  "mes": {
-  "dias": 16,
-  "tp": 25,
+  "dias": 17,
+  "tp": 28,
   "sl": 26,
   "abiertos": 6,
-  "no_activados": 42,
-  "rr_neto": 14.0,
-  "verdes": 8,
+  "no_activados": 46,
+  "rr_neto": 22.0,
+  "verdes": 9,
   "rojos": 6,
   "planos": 2,
-  "cerrados": 51,
-  "tasa_tp": 49.0
+  "cerrados": 54,
+  "tasa_tp": 51.9
  },
  "por_instrumento": {
   "ES": {
    "dias": 0,
-   "tp": 27,
+   "tp": 29,
    "sl": 21,
    "abiertos": 10,
-   "no_activados": 46,
-   "rr_neto": 35.0,
+   "no_activados": 47,
+   "rr_neto": 41.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 48,
-   "tasa_tp": 56.2
+   "cerrados": 50,
+   "tasa_tp": 58.0
   },
   "NQ": {
    "dias": 0,
-   "tp": 31,
+   "tp": 32,
    "sl": 23,
    "abiertos": 3,
-   "no_activados": 50,
-   "rr_neto": 37.0,
+   "no_activados": 53,
+   "rr_neto": 39.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 54,
-   "tasa_tp": 57.4
+   "cerrados": 55,
+   "tasa_tp": 58.2
   }
  },
  "por_rol": {
   "soporte": {
    "dias": 0,
-   "tp": 14,
+   "tp": 15,
    "sl": 10,
    "abiertos": 0,
    "no_activados": 0,
-   "rr_neto": 16.0,
+   "rr_neto": 19.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 24,
-   "tasa_tp": 58.3
+   "cerrados": 25,
+   "tasa_tp": 60.0
   },
   "pivote": {
    "dias": 0,
-   "tp": 28,
+   "tp": 29,
    "sl": 16,
    "abiertos": 0,
    "no_activados": 0,
-   "rr_neto": 47.0,
+   "rr_neto": 50.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 44,
-   "tasa_tp": 63.6
+   "cerrados": 45,
+   "tasa_tp": 64.4
   },
   "resistencia": {
    "dias": 0,
@@ -95,21 +95,21 @@
   },
   "escenario": {
    "dias": 0,
-   "tp": 4,
+   "tp": 5,
    "sl": 4,
    "abiertos": 0,
    "no_activados": 0,
-   "rr_neto": 2.0,
+   "rr_neto": 4.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 8,
-   "tasa_tp": 50.0
+   "cerrados": 9,
+   "tasa_tp": 55.6
   }
  },
  "primer_dia": "2026-09-08",
- "ultimo_dia": "2026-10-28",
- "generado": "2026-10-28T14:21",
+ "ultimo_dia": "2026-10-29",
+ "generado": "2026-10-29T14:20",
  "reglas_version": "2026-09-18",
  "dias": [
   {
@@ -2779,6 +2779,93 @@
       "rr_parcial": null,
       "hora": null,
       "intentos": 1
+     }
+    ]
+   }
+  },
+  {
+   "fecha": "2026-10-29",
+   "rr": 8.0,
+   "tp": 3,
+   "sl": 0,
+   "abiertos": 0,
+   "no_activados": 4,
+   "color": "verde",
+   "completo": true,
+   "acumulado": 80.0,
+   "niveles": {
+    "ES": [
+     {
+      "etiqueta": "soporte 7,734",
+      "rol": "soporte",
+      "direccion": "long",
+      "estado": "cumplido",
+      "rr": 3.0,
+      "rr_parcial": null,
+      "hora": "08:02",
+      "intentos": 1
+     },
+     {
+      "etiqueta": "pivote 7,767",
+      "rol": "pivote",
+      "direccion": "short",
+      "estado": "cumplido",
+      "rr": 3.0,
+      "rr_parcial": null,
+      "hora": "11:13",
+      "intentos": 1
+     },
+     {
+      "etiqueta": "resistencia 7,834",
+      "rol": "resistencia",
+      "direccion": "short",
+      "estado": "no_activado",
+      "rr": null,
+      "rr_parcial": null,
+      "hora": null,
+      "intentos": 1
+     }
+    ],
+    "NQ": [
+     {
+      "etiqueta": "soporte 29,348",
+      "rol": "soporte",
+      "direccion": null,
+      "estado": "no_activado",
+      "rr": null,
+      "rr_parcial": null,
+      "hora": null,
+      "intentos": 1
+     },
+     {
+      "etiqueta": "pivote 29,733",
+      "rol": "pivote",
+      "direccion": "short",
+      "estado": "no_activado",
+      "rr": null,
+      "rr_parcial": null,
+      "hora": null,
+      "intentos": 1
+     },
+     {
+      "etiqueta": "resistencia 29,762",
+      "rol": "resistencia",
+      "direccion": "short",
+      "estado": "no_activado",
+      "rr": null,
+      "rr_parcial": null,
+      "hora": null,
+      "intentos": 1
+     },
+     {
+      "etiqueta": "escenario 1 (29,668)",
+      "rol": "escenario",
+      "direccion": "short",
+      "estado": "cumplido",
+      "rr": 2.0,
+      "rr_parcial": null,
+      "hora": "11:47",
+      "intentos": 2
      }
     ]
    }
