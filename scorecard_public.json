@@ -1,56 +1,56 @@
 {
  "total": {
-  "dias": 41,
-  "tp": 66,
-  "sl": 54,
+  "dias": 42,
+  "tp": 68,
+  "sl": 55,
   "abiertos": 13,
-  "no_activados": 127,
-  "rr_neto": 75.0,
-  "verdes": 25,
+  "no_activados": 130,
+  "rr_neto": 77.0,
+  "verdes": 26,
   "rojos": 14,
   "planos": 2,
-  "cerrados": 120,
-  "tasa_tp": 55.0
+  "cerrados": 123,
+  "tasa_tp": 55.3
  },
  "mes": {
-  "dias": 6,
-  "tp": 4,
-  "sl": 8,
+  "dias": 7,
+  "tp": 6,
+  "sl": 9,
   "abiertos": 0,
-  "no_activados": 24,
-  "rr_neto": -4.0,
-  "verdes": 2,
+  "no_activados": 27,
+  "rr_neto": -2.0,
+  "verdes": 3,
   "rojos": 4,
   "planos": 0,
-  "cerrados": 12,
-  "tasa_tp": 33.3
+  "cerrados": 15,
+  "tasa_tp": 40.0
  },
  "por_instrumento": {
   "ES": {
    "dias": 0,
-   "tp": 33,
+   "tp": 34,
    "sl": 24,
    "abiertos": 10,
-   "no_activados": 61,
-   "rr_neto": 46.0,
+   "no_activados": 63,
+   "rr_neto": 48.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 57,
-   "tasa_tp": 57.9
+   "cerrados": 58,
+   "tasa_tp": 58.6
   },
   "NQ": {
    "dias": 0,
-   "tp": 33,
-   "sl": 30,
+   "tp": 34,
+   "sl": 31,
    "abiertos": 3,
-   "no_activados": 66,
+   "no_activados": 67,
    "rr_neto": 29.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 63,
-   "tasa_tp": 52.4
+   "cerrados": 65,
+   "tasa_tp": 52.3
   }
  },
  "por_rol": {
@@ -69,29 +69,29 @@
   },
   "pivote": {
    "dias": 0,
-   "tp": 32,
+   "tp": 34,
    "sl": 19,
    "abiertos": 0,
    "no_activados": 0,
-   "rr_neto": 52.0,
+   "rr_neto": 56.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 51,
-   "tasa_tp": 62.7
+   "cerrados": 53,
+   "tasa_tp": 64.2
   },
   "resistencia": {
    "dias": 0,
    "tp": 13,
-   "sl": 16,
+   "sl": 17,
    "abiertos": 0,
    "no_activados": 0,
-   "rr_neto": 5.0,
+   "rr_neto": 3.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 29,
-   "tasa_tp": 44.8
+   "cerrados": 30,
+   "tasa_tp": 43.3
   },
   "escenario": {
    "dias": 0,
@@ -108,8 +108,8 @@
   }
  },
  "primer_dia": "2026-09-08",
- "ultimo_dia": "2026-11-09",
- "generado": "2026-11-09T15:21",
+ "ultimo_dia": "2026-11-10",
+ "generado": "2026-11-10T15:21",
  "reglas_version": "2026-09-18",
  "dias": [
   {
@@ -3405,6 +3405,83 @@
       "rr_parcial": null,
       "hora": null,
       "intentos": 1
+     }
+    ]
+   }
+  },
+  {
+   "fecha": "2026-11-10",
+   "rr": 2.0,
+   "tp": 2,
+   "sl": 1,
+   "abiertos": 0,
+   "no_activados": 3,
+   "color": "verde",
+   "completo": true,
+   "acumulado": 77.0,
+   "niveles": {
+    "ES": [
+     {
+      "etiqueta": "soporte 7,477",
+      "rol": "soporte",
+      "direccion": "long",
+      "estado": "no_activado",
+      "rr": null,
+      "rr_parcial": null,
+      "hora": null,
+      "intentos": 1
+     },
+     {
+      "etiqueta": "pivote 7,523",
+      "rol": "pivote",
+      "direccion": "long",
+      "estado": "cumplido",
+      "rr": 2.0,
+      "rr_parcial": null,
+      "hora": "08:58",
+      "intentos": 2
+     },
+     {
+      "etiqueta": "resistencia 7,627",
+      "rol": "resistencia",
+      "direccion": null,
+      "estado": "no_activado",
+      "rr": null,
+      "rr_parcial": null,
+      "hora": null,
+      "intentos": 1
+     }
+    ],
+    "NQ": [
+     {
+      "etiqueta": "soporte 26,821",
+      "rol": "soporte",
+      "direccion": "long",
+      "estado": "no_activado",
+      "rr": null,
+      "rr_parcial": null,
+      "hora": null,
+      "intentos": 1
+     },
+     {
+      "etiqueta": "pivote 27,743",
+      "rol": "pivote",
+      "direccion": "long",
+      "estado": "cumplido",
+      "rr": 2.0,
+      "rr_parcial": null,
+      "hora": "08:55",
+      "intentos": 2
+     },
+     {
+      "etiqueta": "resistencia 28,058",
+      "rol": "resistencia",
+      "direccion": "short",
+      "estado": "invalidado",
+      "rr": -2.0,
+      "rr_parcial": null,
+      "hora": "09:05",
+      "intentos": 2
      }
     ]
    }
