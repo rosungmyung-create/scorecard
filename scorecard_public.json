@@ -1,97 +1,97 @@
 {
  "total": {
-  "dias": 42,
-  "tp": 68,
-  "sl": 55,
+  "dias": 43,
+  "tp": 70,
+  "sl": 58,
   "abiertos": 13,
-  "no_activados": 130,
-  "rr_neto": 77.0,
+  "no_activados": 131,
+  "rr_neto": 76.0,
   "verdes": 26,
-  "rojos": 14,
+  "rojos": 15,
   "planos": 2,
-  "cerrados": 123,
-  "tasa_tp": 55.3
+  "cerrados": 128,
+  "tasa_tp": 54.7
  },
  "mes": {
-  "dias": 7,
-  "tp": 6,
-  "sl": 9,
+  "dias": 8,
+  "tp": 8,
+  "sl": 12,
   "abiertos": 0,
-  "no_activados": 27,
-  "rr_neto": -2.0,
+  "no_activados": 28,
+  "rr_neto": -3.0,
   "verdes": 3,
-  "rojos": 4,
+  "rojos": 5,
   "planos": 0,
-  "cerrados": 15,
+  "cerrados": 20,
   "tasa_tp": 40.0
  },
  "por_instrumento": {
   "ES": {
    "dias": 0,
-   "tp": 34,
+   "tp": 36,
    "sl": 24,
    "abiertos": 10,
-   "no_activados": 63,
-   "rr_neto": 48.0,
+   "no_activados": 64,
+   "rr_neto": 53.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 58,
-   "tasa_tp": 58.6
+   "cerrados": 60,
+   "tasa_tp": 60.0
   },
   "NQ": {
    "dias": 0,
    "tp": 34,
-   "sl": 31,
+   "sl": 34,
    "abiertos": 3,
    "no_activados": 67,
-   "rr_neto": 29.0,
+   "rr_neto": 23.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 65,
-   "tasa_tp": 52.3
+   "cerrados": 68,
+   "tasa_tp": 50.0
   }
  },
  "por_rol": {
   "soporte": {
    "dias": 0,
-   "tp": 16,
-   "sl": 15,
+   "tp": 17,
+   "sl": 16,
    "abiertos": 0,
    "no_activados": 0,
    "rr_neto": 14.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 31,
-   "tasa_tp": 51.6
+   "cerrados": 33,
+   "tasa_tp": 51.5
   },
   "pivote": {
    "dias": 0,
    "tp": 34,
-   "sl": 19,
+   "sl": 20,
    "abiertos": 0,
    "no_activados": 0,
-   "rr_neto": 56.0,
+   "rr_neto": 54.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 53,
-   "tasa_tp": 64.2
+   "cerrados": 54,
+   "tasa_tp": 63.0
   },
   "resistencia": {
    "dias": 0,
-   "tp": 13,
-   "sl": 17,
+   "tp": 14,
+   "sl": 18,
    "abiertos": 0,
    "no_activados": 0,
-   "rr_neto": 3.0,
+   "rr_neto": 4.0,
    "verdes": 0,
    "rojos": 0,
    "planos": 0,
-   "cerrados": 30,
-   "tasa_tp": 43.3
+   "cerrados": 32,
+   "tasa_tp": 43.8
   },
   "escenario": {
    "dias": 0,
@@ -108,8 +108,8 @@
   }
  },
  "primer_dia": "2026-09-08",
- "ultimo_dia": "2026-11-10",
- "generado": "2026-11-10T15:21",
+ "ultimo_dia": "2026-11-11",
+ "generado": "2026-11-11T15:20",
  "reglas_version": "2026-09-18",
  "dias": [
   {
@@ -3481,6 +3481,83 @@
       "rr": -2.0,
       "rr_parcial": null,
       "hora": "09:05",
+      "intentos": 2
+     }
+    ]
+   }
+  },
+  {
+   "fecha": "2026-11-11",
+   "rr": -1.0,
+   "tp": 2,
+   "sl": 3,
+   "abiertos": 0,
+   "no_activados": 1,
+   "color": "rojo",
+   "completo": true,
+   "acumulado": 76.0,
+   "niveles": {
+    "ES": [
+     {
+      "etiqueta": "soporte 7,604",
+      "rol": "soporte",
+      "direccion": "long",
+      "estado": "cumplido",
+      "rr": 2.0,
+      "rr_parcial": null,
+      "hora": "09:55",
+      "intentos": 2
+     },
+     {
+      "etiqueta": "pivote 7,553",
+      "rol": "pivote",
+      "direccion": null,
+      "estado": "no_activado",
+      "rr": null,
+      "rr_parcial": null,
+      "hora": null,
+      "intentos": 1
+     },
+     {
+      "etiqueta": "resistencia 7,624",
+      "rol": "resistencia",
+      "direccion": "short",
+      "estado": "cumplido",
+      "rr": 3.0,
+      "rr_parcial": null,
+      "hora": "08:45",
+      "intentos": 1
+     }
+    ],
+    "NQ": [
+     {
+      "etiqueta": "soporte 28,263",
+      "rol": "soporte",
+      "direccion": "short",
+      "estado": "invalidado",
+      "rr": -2.0,
+      "rr_parcial": null,
+      "hora": "08:50",
+      "intentos": 2
+     },
+     {
+      "etiqueta": "pivote 28,285",
+      "rol": "pivote",
+      "direccion": "short",
+      "estado": "invalidado",
+      "rr": -2.0,
+      "rr_parcial": null,
+      "hora": "08:44",
+      "intentos": 2
+     },
+     {
+      "etiqueta": "resistencia 28,469",
+      "rol": "resistencia",
+      "direccion": "long",
+      "estado": "invalidado",
+      "rr": -2.0,
+      "rr_parcial": null,
+      "hora": "10:10",
       "intentos": 2
      }
     ]
