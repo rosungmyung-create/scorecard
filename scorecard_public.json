@@ -109,7 +109,7 @@
  },
  "primer_dia": "2026-09-08",
  "ultimo_dia": "2026-11-17",
- "generado": "2026-11-17T15:22",
+ "generado": "2026-11-17T16:30",
  "reglas_version": "2026-09-18",
  "dias": [
   {
@@ -3725,7 +3725,7 @@
    "abiertos": 0,
    "no_activados": 3,
    "color": "verde",
-   "completo": false,
+   "completo": true,
    "acumulado": 80.0,
    "niveles": {
     "ES": [
